@@ -52,7 +52,7 @@ db.once('open', () =>{
                 message: messageDetails.message
             });
         } else {
-            console.log("Error triggering pusher")
+            console.log("Errors triggering pusher")
         }
     })
 })
